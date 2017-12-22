@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no, minimal-ui">
+<meta name="applicable-device"content="pc,mobile">
+  <meta http-equiv="Cache-Control" content="no-transform " /> 
+<meta http-equiv="Cache-Control" content="no-siteapp" />
+<title>{dede:field.seotitle/}</title>
+<meta name="keywords" content="{dede:field name='keywords'/}">
+<meta name="description" content="{dede:field name='description '/}">
+<link href="/templets/default/css/idangerous.swiper.css" type="text/css" rel="stylesheet"/>
+<link href="/templets/default/css/js.css" type="text/css" rel="stylesheet"/>
+<link href="/templets/default/css/style.css" type="text/css" rel="stylesheet"/>
+</head>
+<body class="lists">
+
+{dede:include filename="head.htm"/}
+
+
+{dede:include filename="bm.htm"/}
+
+<div class="sl-u">
+<div class="sl-ua">当前位置：<a href="/">主页</a> > <a href="{dede:field name='typelink'/}">{dede:field name='typename'/}</a> ></div>
+{dede:include filename="left.htm"/}
+<div class="sl-uc">
+<div class="sl-uc-a">
+
+<h2 class="text-center"><strong>{dede:field name='typename'/}</strong></h2>
+
+<p class="text-center2">&nbsp;&nbsp;编辑：www.slslsls.com&nbsp;&nbsp;作者：少林寺武校</p>
+
+<hr><br>
+<div class="p-height" deep="5">
+{dede:field.content/}
+</div>
+</div>
+
+{dede:include filename="bottom.htm"/}
+{dede:include filename="footer.htm"/}
+
+</body>
+</html>
